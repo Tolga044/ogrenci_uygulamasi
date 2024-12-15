@@ -5,7 +5,7 @@ internal class Program
     private static void Main(string[] args)
     {
         bool kontrol = true;
-        Ogrenci ogrenci1 = new Ogrenci("tolga", "pektas", "pamukkale üniversitesi", 44, 100, 100, 100);
+        Ogrenci ogrenci1 = new Ogrenci("isim", "soyisim", "pamukkale üniversitesi", 44, 100, 100, 100);
         Console.WriteLine("uygulamamıza hoşgeldiniz... yapmak istediğiniz işlemi seçiniz");
         islemleriGoster();
 
